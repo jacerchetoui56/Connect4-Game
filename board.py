@@ -125,6 +125,7 @@ class Board:
                             self.board[row][col] = self.player
                             self.winner = self.check_winner()
                             if self.winner != 0:
+                                self.draw_window()
                                 self.game_over = True
                                 self.draw_winner()
                                 self.reset_board()
