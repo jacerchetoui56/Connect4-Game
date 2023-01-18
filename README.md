@@ -4,9 +4,9 @@ This is a simple Connect4 game written in Python. It is a two-player game, where
 
 ## for developers
 
-to run the game you need to have _pygame_ installed on your machine. You can install it by running the following command in your terminal:
+to run the game you need to have _pygame_ installed on your machine, also a little library called _colorama_ to color the output in the terminal. You can install it by running the following command in your terminal:
 
-    pip install pygame
+    pip install pygame colorama
 
 then you can run the game by running the following command in your terminal:
 
